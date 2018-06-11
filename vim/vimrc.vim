@@ -1,3 +1,6 @@
+" Vundle packages
+	so ~/dotfiles/vim/packages.vim
+
 " General Vim settings
 	syntax on
 	let mapleader=","
