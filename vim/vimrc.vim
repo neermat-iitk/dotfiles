@@ -1,6 +1,15 @@
 " Vundle packages
 	so ~/dotfiles/vim/packages.vim
 
+" MiniBufExpl
+	let g:miniBufExplMapWindowNavVim = 1 
+	let g:miniBufExplMapWindowNavArrows = 1 
+	let g:miniBufExplMapCTabSwitchBufs = 1 
+	let g:miniBufExplModSelTarget = 1
+
+" NERDTree
+	map <C-t> :NERDTreeToggle<CR>
+
 " General Vim settings
 	syntax on
 	let mapleader=","
