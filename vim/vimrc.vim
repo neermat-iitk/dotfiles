@@ -10,6 +10,8 @@
 		let g:airline#extensions#tabline#formatter = 'default'
 	" theme
 	 	let g:airline_theme='onedark'
+	" whitespace warning
+		let g:airline#extensions#whitespace#enabled = 0
 
 
 " MiniBufExpl
@@ -23,6 +25,7 @@
 
 " General Vim settings
 	syntax on
+	colorscheme onedark
 	let mapleader=","
 	set autoindent
 	set tabstop=4
