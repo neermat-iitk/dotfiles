@@ -1,6 +1,17 @@
 " Vundle packages
 	so ~/dotfiles/vim/packages.vim
 
+" Airline
+	"let g:airline_powerline_fonts = 1
+	" tabline
+		let g:airline#extensions#tabline#enabled = 1
+		let g:airline#extensions#tabline#left_sep = ' '
+		let g:airline#extensions#tabline#left_alt_sep = '|'
+		let g:airline#extensions#tabline#formatter = 'default'
+	" theme
+	 	let g:airline_theme='onedark'
+
+
 " MiniBufExpl
 	let g:miniBufExplMapWindowNavVim = 1 
 	let g:miniBufExplMapWindowNavArrows = 1 
