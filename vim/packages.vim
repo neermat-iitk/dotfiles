@@ -17,6 +17,7 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'wincent/command-t'
 Plugin 'joshdick/onedark.vim'
+Plugin 'lervag/vimtex'
 "Plugin 'fholgado/minibufexpl.vim'
 call vundle#end()            " required
 filetype plugin indent on    " required
