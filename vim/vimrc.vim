@@ -9,7 +9,7 @@
 		let g:airline#extensions#tabline#left_alt_sep = '|'
 		let g:airline#extensions#tabline#formatter = 'default'
 	" theme
-	 	let g:airline_theme='onedark'
+	 	let g:airline_theme='sol'
 	" whitespace warning
 		let g:airline#extensions#whitespace#enabled = 0
 
@@ -25,7 +25,7 @@
 
 " General Vim settings
 	syntax on
-	colorscheme onedark
+	colorscheme peachpuff
 	let mapleader=","
 	set autoindent
 	set tabstop=4
@@ -125,4 +125,8 @@
 " Future stuff
 	"Swap line
 	"Insert blank below and above
+
+" Vimwiki
+"let g:vimwiki_list = [{'path': '~/vimwiki/', 'syntax': 'markdown', 'ext': '.md'}]
+nnoremap <leader>t :VimwikiToggleListItem<CR>
 
