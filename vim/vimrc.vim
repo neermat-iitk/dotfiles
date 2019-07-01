@@ -23,6 +23,23 @@
 " NERDTree
 	map <C-t> :NERDTreeToggle<CR>
 
+" vimtex
+	let g:tex_flavor='latex'
+	"let g:vimtex_view_method='zathura'
+	let g:vimtex_quickfix_mode=0
+	"set conceallevel=1
+	"let g:tex_conceal='abdmg'
+
+"let g:SuperTabDefaultCompletionType = '<tab>'
+
+" UltiSnips
+	let g:UltiSnipsExpandTrigger='<tab>'
+	let g:UltiSnipsJumpForwardTrigger='<tab>'
+	let g:UltiSnipsJumpBackwardTrigger='<s-tab>'
+	let g:UltiSnipsSnippetDirectories = ['/home/neermat/dotfiles/vim/ultisnips']
+
+
+
 " General Vim settings
 	syntax on
 	colorscheme peachpuff
@@ -34,8 +51,8 @@
 	set relativenumber 
 	set number
 
-	set cursorline
-	hi Cursor ctermfg=White ctermbg=Yellow cterm=bold guifg=white guibg=yellow gui=bold
+	"set cursorline
+	"hi Cursor ctermfg=White ctermbg=Yellow cterm=bold guifg=white guibg=yellow gui=bold
 
 	"set hlsearch
 	"nnoremap <C-l> :nohl<CR><C-l>:echo "Search Cleared"<CR>
