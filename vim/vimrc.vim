@@ -25,7 +25,9 @@
 
 " General Vim settings
 	syntax on
-	colorscheme peachpuff
+	"colorscheme onedark 
+	set background=light
+	colorscheme PaperColor
 	let mapleader=","
 	set autoindent
 	set tabstop=4
