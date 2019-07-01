@@ -132,3 +132,7 @@
 "let g:vimwiki_list = [{'path': '~/vimwiki/', 'syntax': 'markdown', 'ext': '.md'}]
 nnoremap <leader>t :VimwikiToggleListItem<CR>
 
+" Vimtex
+let g:vimtex_view_method = 'zathura'
+
+
