@@ -23,6 +23,9 @@ Plugin 'honza/vim-snippets'
 "Plugin 'vimwiki/vimwiki'
 "Plugin 'vim-pandoc/vim-pandoc'
 "Plugin 'vim-pandoc/vim-pandoc-syntax'
+Plugin 'NLKNguyen/papercolor-theme'
+
+>>>>>>> 48a48de1189cf16e7a9921810537914922be8a2c
 "Plugin 'fholgado/minibufexpl.vim'
 call vundle#end()            " required
 filetype plugin indent on    " required
