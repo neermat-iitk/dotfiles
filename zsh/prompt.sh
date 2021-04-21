@@ -45,7 +45,16 @@ set_prompt() {
 		PS1+="%{$fg_bold[red]%}SUDO%{$reset_color%}"
 	fi
 
-	PS1+="%{$fg_bold[red]%}]: %{$reset_color%}% "
+	PS1+="%{$fg_bold[red]%}%{$reset_color%}% "
+
+	# Anaconda
+	if [[ -n $CONDA_DEFAULT_ENV ]]; then
+		if [[ "$CONDA_DEFAULT_ENV" != "base" ]]; then
+			PS1+=', '
+			PS1+="%{$fg_bold[green]%}($CONDA_DEFAULT_ENV)%{$reset_color%}"
+		fi
+	fi
+	PS1+="%{$fg_bold[red]%}]: %{$reset_color%}"
 }
 
 precmd_functions+=set_prompt
